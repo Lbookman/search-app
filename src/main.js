@@ -17,6 +17,7 @@ Vue.use(VueRouter)
 import Details from './components/Details';
 
 const router = new VueRouter({
+  mode: 'history',
   routes: [
     {
      path: '/Details/:id',
